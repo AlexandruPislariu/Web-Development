@@ -11,6 +11,7 @@
 .animated {
   transition-property: background, border-radius;
   transition-duration: 5s, 1s;
+  transition-delay: 2s, 0.5ms;
 }
 
 .box:hover {
