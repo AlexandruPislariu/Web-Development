@@ -23,9 +23,9 @@
 
 .box:hover {
   transform: translateX(300px);
+  background-color: teal;
 }
 .animated {
-  transition-property: transform;
-  transition-duration: 2s;
-  transition-timing-function: ease-in;
+  /* Shorthand: property, duration, timing-function, delay */
+  transition: transform 2s ease-in 1s, background-color 0.5s linear;
 }
