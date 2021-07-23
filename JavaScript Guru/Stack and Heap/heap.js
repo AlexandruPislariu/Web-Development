@@ -1,0 +1,3 @@
+/*
+    Area in memory where data is stored
+*/
