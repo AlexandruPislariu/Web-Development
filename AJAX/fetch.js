@@ -9,3 +9,5 @@ var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
 fetch(url).then((data) => {
   console.log(data);
 });
+
+/* test */
