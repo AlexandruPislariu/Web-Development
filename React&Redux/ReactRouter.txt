@@ -1,0 +1,16 @@
+BrowserRouter vs HashRouter
+    BrowserRouter uses the hitory object and makes changes to the URL, the HashRouter adds hashes to the url instead
+
+Example:
+BrowserRouter   HashRouter
+/               /#
+/users          /#users
+/users/55       /#users/55
+
+Observations:
+BrowserRouter requires server support
+
+Route Props:
+    match -> info about how the url matches the Route
+    location -> window.location
+    history -> html5 history object
